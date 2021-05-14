@@ -8,7 +8,7 @@
 - composer install.
 - edit src/Boozt/Configuration.php with your database configuration.
 - run migrations and seeder: ./vendor/bin/doctrine-migrations migrate
-- run the app using php developmentphp -S 0.0.0.0:8000 -t public/
+- run the app using php development server : php -S 0.0.0.0:8000 -t public/
 - go to: http://localhost:8000.
 
 
