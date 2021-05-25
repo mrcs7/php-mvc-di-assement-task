@@ -1,6 +1,6 @@
 <?php
 
-namespace Boozt;
+namespace Sales;
 
 class Configuration
 {

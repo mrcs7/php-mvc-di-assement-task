@@ -1,9 +1,9 @@
 <?php
 
-namespace Boozt\Repository;
+namespace Sales\Repository;
 
-use Boozt\Model\OrderItems;
-use Boozt\Repository\Contracts\OrderItemsRepositoryInterface;
+use Sales\Model\OrderItems;
+use Sales\Repository\Contracts\OrderItemsRepositoryInterface;
 
 class OrderItemsRepository implements OrderItemsRepositoryInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Boozt\Model;
+namespace Sales\Model;
 
 use PDO;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Boozt\Repository;
+namespace Sales\Repository;
 
-use Boozt\Model\Customer;
-use Boozt\Repository\Contracts\CustomerRepositoryInterface;
+use Sales\Model\Customer;
+use Sales\Repository\Contracts\CustomerRepositoryInterface;
 
 class CustomerRepository implements CustomerRepositoryInterface
 {

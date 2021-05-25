@@ -10,7 +10,7 @@ return [
     ],
 
     'migrations_paths' => [
-        'Boozt\Migrations' => __DIR__.'/src/Boozt/Migrations',
+        'Sales\Migrations' => __DIR__.'/src/Sales/Migrations',
     ],
 
     'all_or_nothing' => true,

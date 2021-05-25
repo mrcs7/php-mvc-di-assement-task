@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Boozt\Migrations;
+namespace Sales\Migrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;

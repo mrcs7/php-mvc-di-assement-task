@@ -1,8 +1,8 @@
 <?php
 
-namespace Boozt\Model;
+namespace Sales\Model;
 
-use Boozt\DBCon;
+use Sales\DBCon;
 use PDO;
 
 abstract class Model

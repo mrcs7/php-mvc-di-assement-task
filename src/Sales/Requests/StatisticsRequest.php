@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Boozt\Requests;
+namespace Sales\Requests;
 
 
-use Boozt\Request;
+use Sales\Request;
 
 class StatisticsRequest extends Request
 {

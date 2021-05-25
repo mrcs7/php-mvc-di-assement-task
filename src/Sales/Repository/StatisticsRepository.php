@@ -1,8 +1,8 @@
 <?php
 
-namespace Boozt\Repository;
+namespace Sales\Repository;
 
-use Boozt\Model\Statistics;
+use Sales\Model\Statistics;
 
 class StatisticsRepository implements Contracts\StatisticsRepositoryInterface
 {

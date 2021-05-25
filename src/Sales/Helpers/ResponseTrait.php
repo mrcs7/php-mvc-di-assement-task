@@ -1,6 +1,6 @@
 <?php
 
-namespace Boozt\Helpers;
+namespace Sales\Helpers;
 
 trait ResponseTrait
 {

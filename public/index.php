@@ -5,9 +5,9 @@ use FastRoute\RouteCollector;
 $container = require __DIR__ . '/../app/bootstrap.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function (RouteCollector $r) {
-    $r->addRoute('GET', '/', ['Boozt\Controller\StatisticsController','index']);
-    $r->addRoute('GET', '/statistics', ['Boozt\Controller\StatisticsController','statistics']);
-    $r->addRoute('GET', '/chart', ['Boozt\Controller\StatisticsController','statisticsChart']);
+    $r->addRoute('GET', '/', ['Sales\Controller\StatisticsController','index']);
+    $r->addRoute('GET', '/statistics', ['Sales\Controller\StatisticsController','statistics']);
+    $r->addRoute('GET', '/chart', ['Sales\Controller\StatisticsController','statisticsChart']);
 
 
 });

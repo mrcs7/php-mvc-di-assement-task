@@ -1,15 +1,15 @@
 <?php
 
-namespace Boozt\Controller;
+namespace Sales\Controller;
 
-use Boozt\Helpers\ResponseTrait;
-use Boozt\Model\Customer;
-use Boozt\Repository\Contracts\CustomerRepositoryInterface;
-use Boozt\Repository\Contracts\OrderItemsRepositoryInterface;
-use Boozt\Repository\Contracts\OrderRepositoryInterface;
-use Boozt\Repository\Contracts\StatisticsRepositoryInterface;
-use Boozt\Request;
-use Boozt\Requests\StatisticsRequest;
+use Sales\Helpers\ResponseTrait;
+use Sales\Model\Customer;
+use Sales\Repository\Contracts\CustomerRepositoryInterface;
+use Sales\Repository\Contracts\OrderItemsRepositoryInterface;
+use Sales\Repository\Contracts\OrderRepositoryInterface;
+use Sales\Repository\Contracts\StatisticsRepositoryInterface;
+use Sales\Request;
+use Sales\Requests\StatisticsRequest;
 use Twig\Environment;
 
 class StatisticsController

@@ -1,6 +1,6 @@
 <?php
 
-use Boozt\Configuration;
+use Sales\Configuration;
 
 return [
     'dbname' => Configuration::DB_NAME,

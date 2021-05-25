@@ -1,6 +1,6 @@
 <?php
 
-namespace Boozt\Repository\Contracts;
+namespace Sales\Repository\Contracts;
 
 interface OrderItemsRepositoryInterface
 {

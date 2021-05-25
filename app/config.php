@@ -1,13 +1,13 @@
 <?php
 
-use Boozt\Repository\Contracts\CustomerRepositoryInterface;
-use Boozt\Repository\Contracts\OrderItemsRepositoryInterface;
-use Boozt\Repository\Contracts\OrderRepositoryInterface;
-use Boozt\Repository\Contracts\StatisticsRepositoryInterface;
-use Boozt\Repository\CustomerRepository;
-use Boozt\Repository\OrderItemsRepository;
-use Boozt\Repository\OrderRepository;
-use Boozt\Repository\StatisticsRepository;
+use Sales\Repository\Contracts\CustomerRepositoryInterface;
+use Sales\Repository\Contracts\OrderItemsRepositoryInterface;
+use Sales\Repository\Contracts\OrderRepositoryInterface;
+use Sales\Repository\Contracts\StatisticsRepositoryInterface;
+use Sales\Repository\CustomerRepository;
+use Sales\Repository\OrderItemsRepository;
+use Sales\Repository\OrderRepository;
+use Sales\Repository\StatisticsRepository;
 use function DI\create;
 
 use Twig\Environment;
@@ -23,7 +23,7 @@ return [
 
     // Configure Twig
     Environment::class => function () {
-        $loader = new FilesystemLoader(__DIR__ . '/../src/Boozt/Views');
+        $loader = new FilesystemLoader(__DIR__ . '/../src/Sales/Views');
         return new Environment($loader);
     },
 
